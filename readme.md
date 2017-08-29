@@ -1,7 +1,7 @@
 ## Theme for Sabaki
 An interface theme for [Sabaki](http://sabaki.yichuanshen.de/).
 
-#### Wood Stone ([download](https://github.com/geovens/sabaki-theme/raw/master/woodstone.asar))
+#### Wood Stone ([download](https://github.com/geovens/sabaki-theme/raw/master/woodstone/woodstone.asar))
 ![Screenshot](woodstone/screenshot.jpg)
 
 ## Installation
