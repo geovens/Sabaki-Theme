@@ -5,6 +5,7 @@ These are UI themes for [Sabaki](http://sabaki.yichuanshen.de/).
 <img src="https://github.com/geovens/sabaki-theme/raw/master/woodstone/screenshot.jpg">
 
 #### Cartoon ([download](https://github.com/geovens/sabaki-theme/raw/master/cartoon/cartoon.asar))
+<img src="https://github.com/geovens/sabaki-theme/raw/master/cartoon/screenshot_9x9.jpg">
 <img src="https://github.com/geovens/sabaki-theme/raw/master/cartoon/screenshot.jpg">
 
 ## Installation
