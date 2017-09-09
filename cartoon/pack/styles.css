@@ -10,6 +10,11 @@
     .goban li.sign_-1.random_2 .stone img {
         background-image: url('white3.png');
     }
+	.goban li.sign_-1.random_3 .stone img {
+        background-image: url('white1.png');
+    }
+    .goban li.sign_-1.random_4 .stone img {
+        background-image: url('white2.png');
 }
 
 
@@ -22,6 +27,11 @@
     .goban li.sign_1.random_2 .stone img {
         background-image: url('black3.png');
     }
+	.goban li.sign_1.random_3 .stone img {
+        background-image: url('black1.png');
+    }
+    .goban li.sign_1.random_4 .stone img {
+        background-image: url('black2.png');
 }
 
 .goban li.sign_-1 .stone::before {
