@@ -11,10 +11,10 @@
         background-image: url('white3.png');
     }
 	.goban li.sign_-1.random_3 .stone img {
-        background-image: url('white1.png');
+        background-image: url('white4.png');
     }
     .goban li.sign_-1.random_4 .stone img {
-        background-image: url('white2.png');
+        background-image: url('white5.png');
 }
 
 
@@ -28,10 +28,10 @@
         background-image: url('black3.png');
     }
 	.goban li.sign_1.random_3 .stone img {
-        background-image: url('black1.png');
+        background-image: url('black4.png');
     }
     .goban li.sign_1.random_4 .stone img {
-        background-image: url('black2.png');
+        background-image: url('black5.png');
 }
 
 .goban li.sign_-1 .stone::before {
