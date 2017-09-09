@@ -1,0 +1,51 @@
+
+/* Stones */
+
+.goban li.sign_-1.random_0 .stone img {
+        background-image: url('white1.png');
+    }
+    .goban li.sign_-1.random_1 .stone img {
+        background-image: url('white2.png');
+    }
+    .goban li.sign_-1.random_2 .stone img {
+        background-image: url('white3.png');
+    }
+}
+
+
+.goban li.sign_1.random_0 .stone img {
+        background-image: url('black1.png');
+    }
+    .goban li.sign_1.random_1 .stone img {
+        background-image: url('black2.png');
+    }
+    .goban li.sign_1.random_2 .stone img {
+        background-image: url('black3.png');
+    }
+}
+
+.goban li.sign_-1 .stone::before {
+	opacity: 0;
+}
+
+.goban li.sign_1 .stone::before {
+	opacity: 0;
+}
+
+/* Board */
+
+.goban {
+border: 0px solid #000000;
+}
+
+.goban,
+.goban .row li .stone span::before,
+.goban .row li .stone span::after,
+.goban .row li.cross .stone span {
+        background-color: #D1AE84;
+        background-image: url('board.png');
+    }
+    .goban .row li.triangle .stone span::after {
+        border-bottom-color: #D1AE84;
+}
+
