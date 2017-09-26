@@ -96,6 +96,33 @@ border: 0px solid #000000;
 /* Black Border */
 
 .goban {
-    border: 2px solid #000000;
+    border: 2px solid #222222;
     padding: 2px 2px 2px 2px;
+}
+
+/* UI */
+
+main {
+    background: #c8b89b;
+}
+
+#goban {
+	box-shadow: 0 0px 0px;
+}
+	
+#leftsidebar {
+	background: #323238;
+}
+
+#console .input {
+	background: #2b2c30;
+}
+
+#sidebar {
+	background: #323238;
+}
+
+#slider {
+	background: #2b2c30;
+	box-shadow: 0 0 0px #111;
 }

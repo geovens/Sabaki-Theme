@@ -35,10 +35,10 @@
 }
 
 .goban li .stone::before {
-	left: 2px;
-	top: 2px;
-	height: calc(100% - 5px);
-	width: calc(100% - 5px);
+	left: 3px;
+	top: 3px;
+	height: calc(100% - 7px);
+	width: calc(100% - 7px);
 }
 
 .goban li.sign_-1 .stone::before {
@@ -66,3 +66,25 @@ border: 0px solid #000000;
         border-bottom-color: #D1AE84;
 }
 
+/* UI */
+
+main {
+    background: #c8b89b;
+}
+	
+#leftsidebar {
+	background: #323238;
+}
+
+#console .input {
+	background: #2b2c30;
+}
+
+#sidebar {
+	background: #323238;
+}
+
+#slider {
+	background: #2b2c30;
+	box-shadow: 0 0 0px #111;
+}
