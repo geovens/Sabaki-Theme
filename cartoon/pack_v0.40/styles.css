@@ -44,78 +44,12 @@
 /* Board */
 
 .shudan-goban {
+	--shudan-board-border-width: .25em;
     --shudan-board-border-color: #000000;
-}
-
-.shudan-goban {
     --shudan-board-background-color: #D1AE84;
+	--shudan-board-foreground-color: #444444;
 }
 
 .shudan-goban-image {
     background-image: url('board.png')
 }
-
-/* Lines */
-
-/*
-.goban .row li {
-    position: relative;
-    background: url('inner.svg') center;
-	}
-	.goban .row li.hoshi::after {
-		background: #000000;
-	}
-	.goban .row:nth-child(3) li {
-		background-image: url('side-n.svg');
-	}
-	.goban .row:nth-last-child(3) li {
-		background-image: url('side-s.svg');
-	}
-	.goban .row li:first-child {
-		background-image: url('side-w.svg');
-	}
-	.goban .row li:last-child {
-		background-image: url('side-e.svg');
-	}
-	.goban .row:nth-child(3) li:first-child {
-		background-image: url('corner-nw.svg');
-	}
-	.goban .row:nth-child(3) li:last-child {
-		background-image: url('corner-ne.svg');
-	}
-	.goban .row:nth-last-child(3) li:first-child {
-		background-image: url('corner-sw.svg');
-	}
-	.goban .row:nth-last-child(3) li:last-child {
-		background-image: url('corner-se.svg');
-	}
-*/
-
-/* UI */
-
-/*
-main {
-    background: #c8b89b;
-}
-
-#goban {
-	box-shadow: 0 0px 0px;
-}
-	
-#leftsidebar {
-	background: #323238;
-}
-
-#console .input {
-	background: #2b2c30;
-}
-
-#sidebar {
-	background: #323238;
-}
-
-#slider {
-	background: #2b2c30;
-	box-shadow: 0 0 0px #111;
-}
-*/
