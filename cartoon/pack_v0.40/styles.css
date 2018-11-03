@@ -54,6 +54,11 @@
     background-image: url('board.png');
 }
 
+/* Grid Lines */
+
+.shudan-vertex .shudan-board::before {
+	height: 2px;
+}
 .shudan-vertex .shudan-board::after {
 	width: 2px;
 }
