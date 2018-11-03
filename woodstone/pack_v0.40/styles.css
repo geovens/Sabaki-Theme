@@ -42,7 +42,7 @@
 		width: calc(100% - .1em);
 		height: calc(100% - .1em);
 		background: rgba(23, 10, 2, 1);
-        box-shadow: .08em .08em .2em -.02em rgba(23, 10, 2, .6);
+        box-shadow: .09em .09em .2em rgba(23, 10, 2, .6);
 }
 .shudan-vertex.shudan-sign_-1 .shudan-shadow {
         opacity: .6;
@@ -57,7 +57,7 @@
 	--shudan-board-border-width: 0em;
     --shudan-board-border-color: #222222;
     --shudan-board-background-color: #D1AE84;
-	--shudan-board-foreground-color: #734F2C;
+	--shudan-board-foreground-color: #915C14;
 }
 
 .shudan-goban-image {
