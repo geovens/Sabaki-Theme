@@ -57,8 +57,8 @@
 /* Grid Lines */
 
 .shudan-vertex .shudan-board::before {
-	height: .02em;
+	height: .04em;
 }
 .shudan-vertex .shudan-board::after {
-	width: .02em;
+	width: .04em;
 }
