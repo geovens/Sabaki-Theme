@@ -61,10 +61,10 @@
 /* Board */
 
 .shudan-goban {
-	--shudan-board-border-width: .05em;
+	--shudan-board-border-width: 0em;
     --shudan-board-border-color: #222222;
     --shudan-board-background-color: #000000;
-	--shudan-board-foreground-color: #555555;
+	--shudan-board-foreground-color: #666666;
 }
 
 .shudan-goban-image {
