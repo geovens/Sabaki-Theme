@@ -47,7 +47,7 @@
 	--shudan-board-border-width: .05em;
     --shudan-board-border-color: #222222;
     --shudan-board-background-color: #D1AE84;
-	--shudan-board-foreground-color: #000000;
+	--shudan-board-foreground-color: #555555;
 }
 
 .shudan-goban-image {
@@ -57,8 +57,8 @@
 /* Grid Lines */
 
 .shudan-vertex .shudan-board::before {
-	height: .04em;
+	height: 2px;
 }
 .shudan-vertex .shudan-board::after {
-	width: .04em;
+	width: 2px;
 }
