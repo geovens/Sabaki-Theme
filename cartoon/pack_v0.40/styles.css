@@ -44,12 +44,16 @@
 /* Board */
 
 .shudan-goban {
-	--shudan-board-border-width: .25em;
-    --shudan-board-border-color: #000000;
+	--shudan-board-border-width: .05em;
+    --shudan-board-border-color: #222222;
     --shudan-board-background-color: #D1AE84;
-	--shudan-board-foreground-color: #444444;
+	--shudan-board-foreground-color: #222222;
 }
 
 .shudan-goban-image {
-    background-image: url('board.png')
+    background-image: url('board.png');
+}
+
+.shudan-vertex .shudan-board::after {
+	width: 2px;
 }
