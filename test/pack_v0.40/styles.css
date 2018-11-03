@@ -2,37 +2,12 @@
 /* Stones */
 
 .shudan-stone-image.shudan-sign_-1 {
-        background-image: url('white1.png');
+        background-image: url('white.png');
     }
-    .shudan-stone-image.shudan-sign_-1.shudan-random_1 {
-        background-image: url('white2.png');
-    }
-    .shudan-stone-image.shudan-sign_-1.shudan-random_2 {
-        background-image: url('white3.png');
-    }
-	.shudan-stone-image.shudan-sign_-1.shudan-random_3 {
-        background-image: url('white4.png');
-    }
-    .shudan-stone-image.shudan-sign_-1.shudan-random_4 {
-        background-image: url('white5.png');
-}
-
 
 .shudan-stone-image.shudan-sign_1 {
-        background-image: url('black1.png');
+        background-image: url('black.png');
     }
-    .shudan-stone-image.shudan-sign_1.shudan-random_1 {
-        background-image: url('black2.png');
-    }
-    .shudan-stone-image.shudan-sign_1.shudan-random_2 {
-        background-image: url('black3.png');
-    }
-	.shudan-stone-image.shudan-sign_1.shudan-random_3 {
-        background-image: url('black4.png');
-    }
-    .shudan-stone-image.shudan-sign_1.shudan-random_4 {
-        background-image: url('black5.png');
-}
 
 .shudan-vertex.shudan-sign_0 {
 	top: .04em;
@@ -41,7 +16,37 @@
 	height: calc(100% - .08em);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-image: url('white1.png');
+	background-image: url('null.png');
+}
+
+/* Fuzzy Stone Placement */
+
+.shudan-vertex:not(.shudan-sign_0).shudan-animate .shudan-stone {
+        transition: transform .0s;
+    }
+    .shudan-vertex:not(.shudan-sign_0).shudan-shift_1 .shudan-stone {
+        transform: translate(-.00em, 0);
+    }
+    .shudan-vertex:not(.shudan-sign_0).shudan-shift_2 .shudan-stone {
+        transform: translate(0, -.00em);
+    }
+    .shudan-vertex:not(.shudan-sign_0).shudan-shift_3 .shudan-stone {
+        transform: translate(.00em, 0);
+    }
+    .shudan-vertex:not(.shudan-sign_0).shudan-shift_4 .shudan-stone {
+        transform: translate(0, .00em);
+    }
+    .shudan-vertex:not(.shudan-sign_0).shudan-shift_5 .shudan-stone {
+        transform: translate(-.00em, -.00em);
+    }
+    .shudan-vertex:not(.shudan-sign_0).shudan-shift_6 .shudan-stone {
+        transform: translate(.00em, -.00em);
+    }
+    .shudan-vertex:not(.shudan-sign_0).shudan-shift_7 .shudan-stone {
+        transform: translate(.00em, .00em);
+    }
+    .shudan-vertex:not(.shudan-sign_0).shudan-shift_8 .shudan-stone {
+        transform: translate(-.00em, .00em);
 }
 
 /* Stone Shadow */
