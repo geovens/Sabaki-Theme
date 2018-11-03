@@ -37,10 +37,12 @@
 /* Stone Shadow */
 
 .shudan-vertex:not(.shudan-sign_0) .shudan-shadow {
+		top: .05em;
+		left: .05em;
 		width: calc(100% - .1em);
 		height: calc(100% - .1em);
 		background: rgba(233, 10, 2, 1);
-        box-shadow: .16em .16em .2em -.02em rgba(23, 10, 2, .6);
+        box-shadow: .13em .13em .2em -.02em rgba(23, 10, 2, .6);
 }
 .shudan-vertex.shudan-sign_-1 .shudan-shadow {
         opacity: .6;
