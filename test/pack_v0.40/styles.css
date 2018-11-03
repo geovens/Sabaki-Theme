@@ -82,3 +82,9 @@
 .shudan-vertex .shudan-hoshi {
 	transform: translate(calc(-50% + .5px), calc(-50% + .5px));
 }
+
+/* UI */
+
+main {
+	background: #000000 url('board.png')
+}
