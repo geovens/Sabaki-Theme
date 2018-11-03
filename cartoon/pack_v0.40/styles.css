@@ -1,36 +1,36 @@
 
 /* Stones */
 
-.goban li.sign_-1.random_0 .stone img {
+.shudan-stone-image.shudan-sign_-1 {
         background-image: url('white1.png');
     }
-    .goban li.sign_-1.random_1 .stone img {
+    .shudan-stone-image.shudan-sign_-1.shudan-random_1 {
         background-image: url('white2.png');
     }
-    .goban li.sign_-1.random_2 .stone img {
+    .shudan-stone-image.shudan-sign_-1.shudan-random_2 {
         background-image: url('white3.png');
     }
-	.goban li.sign_-1.random_3 .stone img {
+	.shudan-stone-image.shudan-sign_-1.shudan-random_3 {
         background-image: url('white4.png');
     }
-    .goban li.sign_-1.random_4 .stone img {
+    .shudan-stone-image.shudan-sign_-1.shudan-random_4 {
         background-image: url('white5.png');
 }
 
 
-.goban li.sign_1.random_0 .stone img {
+.shudan-stone-image.shudan-sign_1 {
         background-image: url('black1.png');
     }
-    .goban li.sign_1.random_1 .stone img {
+    .shudan-stone-image.shudan-sign_1.shudan-random_1 {
         background-image: url('black2.png');
     }
-    .goban li.sign_1.random_2 .stone img {
+    .shudan-stone-image.shudan-sign_1.shudan-random_2 {
         background-image: url('black3.png');
     }
-	.goban li.sign_1.random_3 .stone img {
+	.shudan-stone-image.shudan-sign_1.shudan-random_3 {
         background-image: url('black4.png');
     }
-    .goban li.sign_1.random_4 .stone img {
+    .shudan-stone-image.shudan-sign_1.shudan-random_4 {
         background-image: url('black5.png');
 }
 
@@ -44,14 +44,25 @@
 
 /* Board */
 
-.goban {
+.shudan-goban {
+    --shudan-board-border-color: #000000
+}
+
+
+
+.DEPRECATED-goban {
 border: 0px solid #000000;
 }
 
-.goban,
-.goban .row li .stone span::before,
-.goban .row li .stone span::after,
-.goban .row li.cross .stone span {
+.shudan-goban {
+    --shudan-board-background-color: #D1AE84;
+}
+
+.shudan-goban-image {
+    background-image: url('board.png')
+}
+
+.DEPRECATED-goban {
         background-color: #D1AE84;
         background-image: url('board.png');
     }
@@ -95,7 +106,13 @@ border: 0px solid #000000;
 
 /* Black Border */
 
-.goban {
+.shudan-goban {
+    --shudan-board-border-color: #222222
+}
+
+
+
+.DEPRECATED-goban {
     border: 2px solid #222222;
     padding: 2px 2px 2px 2px;
 }
