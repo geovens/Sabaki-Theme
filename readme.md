@@ -1,10 +1,15 @@
 ## Themes for Sabaki
 These are UI themes for [Sabaki](http://sabaki.yichuanshen.de/).
 
-#### Wood Stone ([download](https://github.com/geovens/sabaki-theme/raw/master/woodstone/woodstone.asar))
+#### Wood Stone 
+[download (for Sabaki 0.35 and older)](https://github.com/geovens/sabaki-theme/raw/master/woodstone/woodstone_v0.35.asar)
+[download (for Sabaki 0.40 and newer)](https://github.com/geovens/sabaki-theme/raw/master/woodstone/woodstone_v0.40.asar)
 <img src="https://github.com/geovens/sabaki-theme/raw/master/woodstone/screenshot.jpg">
 
-#### Cartoon ([download](https://github.com/geovens/sabaki-theme/raw/master/cartoon/cartoon.asar))
+#### Cartoon 
+[download (for Sabaki 0.35 and older)](https://github.com/geovens/sabaki-theme/raw/master/cartoon/cartoon_v0.35.asar)
+[download (for Sabaki 0.40 and newer)](https://github.com/geovens/sabaki-theme/raw/master/cartoon/cartoon_v0.40.asar)
+
 <img src="https://github.com/geovens/sabaki-theme/raw/master/cartoon/screenshot_9x9.jpg">
 <img src="https://github.com/geovens/sabaki-theme/raw/master/cartoon/screenshot.jpg">
 
