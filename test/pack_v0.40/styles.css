@@ -35,7 +35,11 @@
 }
 
 .shudan-vertex.shudan-sign_0 {
-        background-image: url('white1.png');
+	top: .04em;
+	left: .04em;
+	width: calc(100% - .08em);
+	height: calc(100% - .08em);
+	background-image: url('white1.png');
 }
 
 /* Stone Shadow */
