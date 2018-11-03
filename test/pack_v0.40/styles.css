@@ -9,6 +9,7 @@
         background-image: url('black.png');
     }
 
+/*
 .shudan-vertex.shudan-sign_0 {
 	top: .04em;
 	left: .04em;
@@ -18,6 +19,7 @@
 	background-repeat: no-repeat;
 	background-image: url('null.png');
 }
+*/
 
 /* Fuzzy Stone Placement */
 
@@ -61,8 +63,8 @@
 .shudan-goban {
 	--shudan-board-border-width: .05em;
     --shudan-board-border-color: #222222;
-    --shudan-board-background-color: #D1AE84;
-	--shudan-board-foreground-color: #989898;
+    --shudan-board-background-color: #000000;
+	--shudan-board-foreground-color: #555555;
 }
 
 .shudan-goban-image {
@@ -72,11 +74,11 @@
 /* Grid Lines */
 
 .shudan-vertex .shudan-board::before {
-	height: 2px;
+	height: 1px;
 }
 .shudan-vertex .shudan-board::after {
-	width: 2px;
+	width: 1px;
 }
 .shudan-vertex .shudan-hoshi {
-	transform: translate(calc(-50% + 1px), calc(-50% + 1px));
+	transform: translate(calc(-50% + .5px), calc(-50% + .5px));
 }
