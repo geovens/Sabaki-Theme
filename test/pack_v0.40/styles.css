@@ -1,0 +1,71 @@
+
+/* Stones */
+
+.shudan-stone-image.shudan-sign_-1 {
+        background-image: url('white1.png');
+    }
+    .shudan-stone-image.shudan-sign_-1.shudan-random_1 {
+        background-image: url('white2.png');
+    }
+    .shudan-stone-image.shudan-sign_-1.shudan-random_2 {
+        background-image: url('white3.png');
+    }
+	.shudan-stone-image.shudan-sign_-1.shudan-random_3 {
+        background-image: url('white4.png');
+    }
+    .shudan-stone-image.shudan-sign_-1.shudan-random_4 {
+        background-image: url('white5.png');
+}
+
+
+.shudan-stone-image.shudan-sign_1 {
+        background-image: url('black1.png');
+    }
+    .shudan-stone-image.shudan-sign_1.shudan-random_1 {
+        background-image: url('black2.png');
+    }
+    .shudan-stone-image.shudan-sign_1.shudan-random_2 {
+        background-image: url('black3.png');
+    }
+	.shudan-stone-image.shudan-sign_1.shudan-random_3 {
+        background-image: url('black4.png');
+    }
+    .shudan-stone-image.shudan-sign_1.shudan-random_4 {
+        background-image: url('black5.png');
+}
+
+.shudan-stone-image.shudan-sign_0 {
+        background-image: url('white1.png');
+}
+
+/* Stone Shadow */
+
+.shudan-vertex:not(.shudan-sign_0) .shudan-shadow {
+        opacity: 0;
+}
+
+
+/* Board */
+
+.shudan-goban {
+	--shudan-board-border-width: .05em;
+    --shudan-board-border-color: #222222;
+    --shudan-board-background-color: #D1AE84;
+	--shudan-board-foreground-color: #795616;
+}
+
+.shudan-goban-image {
+    background-image: url('board.png');
+}
+
+/* Grid Lines */
+
+.shudan-vertex .shudan-board::before {
+	height: 2px;
+}
+.shudan-vertex .shudan-board::after {
+	width: 2px;
+}
+.shudan-vertex .shudan-hoshi {
+	transform: translate(calc(-50% + 1px), calc(-50% + 1px));
+}
