@@ -62,3 +62,6 @@
 .shudan-vertex .shudan-board::after {
 	width: 2px;
 }
+.shudan-vertex .shudan-hoshi {
+	transform: translate(calc(-50% + 1px), calc(-50% + 1px));
+}
