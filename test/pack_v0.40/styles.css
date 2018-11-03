@@ -35,6 +35,10 @@
 }
 
 .shudan-vertex.shudan-sign_0 {
+	top: .04em;
+	left: .04em;
+	width: calc(100% - .08em);
+	height: calc(100% - .08em);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-image: url('white1.png');
