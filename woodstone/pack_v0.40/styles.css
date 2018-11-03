@@ -36,6 +36,9 @@
 
 /* Stone Shadow */
 
+.shudan-vertex:not(.shudan-sign_0) .shudan-shadow {
+        box-shadow: 0 .1em .2em -7px rgba(23, 10, 2, .4);
+}
 .shudan-vertex.shudan-sign_-1 .shudan-shadow {
         opacity: .6;
 }
@@ -49,7 +52,7 @@
 	--shudan-board-border-width: 0em;
     --shudan-board-border-color: #222222;
     --shudan-board-background-color: #D1AE84;
-	--shudan-board-foreground-color: #4A311F;
+	--shudan-board-foreground-color: #734F2C;
 }
 
 .shudan-goban-image {
