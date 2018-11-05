@@ -67,11 +67,11 @@
 /* Grid Lines */
 
 .shudan-vertex .shudan-board::before {
-	height: 2px;
+	height: .02em;
 }
 .shudan-vertex .shudan-board::after {
-	width: 2px;
+	width: .02em;
 }
 .shudan-vertex .shudan-hoshi {
-	transform: translate(calc(-50% + 1px), calc(-50% + 1px));
+	transform: translate(calc(-50% + .01em), calc(-50% + .01em));
 }
